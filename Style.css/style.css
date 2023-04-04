@@ -135,6 +135,10 @@ div.cyan-pink > div.pink{
     width: 25%;
 }
 
+section.white > div.cyan-pink > div.pink{
+    padding-right: 3rem;
+}
+
 div.cyan-pink > div.pink > h2{
     color: #23272a;
     font-size: 3rem;
@@ -149,15 +153,23 @@ div.cyan-pink > div.pink > p{
 
  div.cyan-pink > div.cyan img{
     height: 500px;
+    justify-content: start;
 }
 
 section.lightgray{
-    background-color: lightgray;
+    background-image: url(../img/wave.svg);
+    background-color: #f6f6f6;
+    background-color: #f6f6f6;
 }
 
 section.lightgray >div.cyan-pink > div.cyan{
     order: 2;
 }
+
+section.lightgray >div.cyan-pink > div.cyan{
+    justify-content: end;
+}
+
 
 section.lightgray > div.green{
     height: 900px;
