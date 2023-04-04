@@ -18,6 +18,17 @@
     padding-bottom: 50px;
 }
 
+.btn{
+    background-color: white;
+    border-radius: 20px;
+    padding:10px 15px;
+    border: none;
+}
+
+.color-black{
+    background-color: #23272a;
+    color: white;
+}
 /* Classe per aggiungere il bordo */
 .border{
     border: 2px dashed black;
@@ -71,17 +82,6 @@ nav >.login{
     align-items: center;
 }
 
-.btn{
-    background-color: white;
-    border-radius: 20px;
-    padding:10px 15px;
-    border: none;
-}
-
-.color-black{
-    background-color: black;
-    color: white;
-}
 
 section.blue{
     justify-content:center;
@@ -124,20 +124,31 @@ section > div.jumbotron > button.btn{
 }
 
 .cyan-pink{
-    height: 450px;
     width: 70%;
 }
 
 div.cyan-pink > div.cyan{
-    width: 60%;
-    height: 100%;
-    background-color: #1e90ff;
+    width: 75%;
 }
 
 div.cyan-pink > div.pink{
-    width: 40%;
-    height: 100%;
-    background-color: #ffc0cb;
+    width: 25%;
+}
+
+div.cyan-pink > div.pink > h2{
+    color: #23272a;
+    font-size: 3rem;
+    text-align: left;
+    margin-top: 40px;
+}
+
+div.cyan-pink > div.pink > p{
+    font-size: 1.5rem;
+    margin-top:1.2rem;
+}
+
+ div.cyan-pink > div.cyan img{
+    height: 500px;
 }
 
 section.lightgray{
