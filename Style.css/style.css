@@ -70,20 +70,26 @@ nav >.login{
     align-items: center;
 }
 
-nav > div.login > div.btn{
+.btn{
     background-color: white;
     border-radius: 20px;
     padding:10px 15px;
+    border: none;
+}
+
+.color-black{
+    background-color: black;
+    color: white;
 }
 
 section.blue{
+    height: 450px;
     justify-content:center;
     align-items: center;
     text-align: center;
 }
 
 section.blue > .jumbotron{
-    height: 350px;
     width: 850px;
     border-radius: 10px;
 }
@@ -98,6 +104,23 @@ section.blue > .jumbotron > p{
     margin-top:2rem ;
     font-size: 1.3rem;
     line-height: 2.2rem;
+}
+
+section > div.jumbotron > button.color-black{
+    font-size: 1.3rem;
+    margin-left: 1.5rem;
+    padding: 20px 30px;
+    border-radius: 30px;
+}
+
+section > div.jumbotron > button.btn{
+    font-size: 1.3rem;
+    padding: 20px 30px;
+    border-radius: 30px;
+}
+
+section > div.jumbotron > button.btn{
+    margin-top: 1.5rem;
 }
 
 .cyan-pink{
