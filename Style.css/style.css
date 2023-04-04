@@ -1,0 +1,171 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+                    /* CLASSI GENERALI */
+
+/* Classe per il centraggio orizzontale delle box */
+.center-side{
+   margin: auto;
+}
+
+/* Classe per il centraggio verticale delle box */
+.center-top{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* Classe per aggiungere il bordo */
+.border{
+    border: 2px dashed black;
+}
+
+/* Classe per aggiungere padding agli item nel nav */
+.padding{
+    padding: 10px;
+}
+
+/* Classe per aggiungere un with ai lati del nav */
+.side{
+    width: 20%;
+}
+
+/* Classe generale per il flex */
+.flex{
+    display: flex;
+}
+
+                    /* CSS */
+
+body{
+    font-family: Arial, Helvetica, sans-serif
+}
+
+header{
+    background-color: #add8e6;
+    padding-top: 10px;
+}
+
+nav{
+    background-color: #daa520;
+    border: 3px dashed black;
+    width: 70%;
+    margin:0px auto 10px auto;
+}
+
+nav > ul{
+    list-style-type: none;
+    width: 60%;
+    justify-content: center;
+    gap: 10px;
+}
+
+ nav > .logo{
+    border-right: 3px dashed black;
+}
+
+nav >.login{
+    border-left: 3px dashed black;
+    text-align: end ;
+}
+
+
+section.blue{
+    background-color: #00008b;
+    border-bottom: 3px solid #add8e6;
+    justify-content:center;
+    align-items: center;
+}
+
+section.blue > .violet{
+    height: 350px;
+    width: 850px;
+    background-color: #ee82ee;
+    
+    border-radius: 10px;
+}
+
+.cyan-pink{
+    height: 450px;
+    width: 70%;
+}
+
+div.cyan-pink > div.cyan{
+    width: 60%;
+    height: 100%;
+    background-color: #1e90ff;
+}
+
+div.cyan-pink > div.pink{
+    width: 40%;
+    height: 100%;
+    background-color: #ffc0cb;
+}
+
+section.lightgray{
+    background-color: lightgray;
+}
+
+section.lightgray >div.cyan-pink > div.cyan{
+    order: 2;
+}
+
+section.lightgray > div.green{
+    height: 900px;
+    width: 70%;
+    background-color: green;
+}
+
+
+section.blue-turquoise{
+    background-color: #23272a;
+    padding-top: 10px;
+    border-bottom: 2px solid white;
+    padding-bottom: 50px;
+}
+
+section.blue-turquoise > .coral-turquoise{
+    width: 70%;
+    height: 500px;
+}
+
+section.blue-turquoise > div.coral-turquoise > div.coral{
+    height: 100%;
+    width: 40%;
+    background-color: #f08080;
+    border: 2px dashed black;
+    border-right: 3px dashed black;
+}
+
+section.blue-turquoise > div.coral-turquoise > div.turquoise{
+    height: 100%;
+    width: calc(100% / 4);
+    background-color: #20b2aa;
+    border: 2px dashed white;
+}
+
+footer{
+    background-color: #23272a;
+    padding-top: 40px;
+}
+
+footer > div.container-logo-btn{
+    background-color: #7fffd4;
+    width: 70%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+footer > div.container-logo-btn > div.logo{
+    background-color: #fdb4c0;
+    padding: 5px;
+}
+
+footer > div.container-logo-btn > div.btn{
+    background-color: #fdb4c0;
+    padding: 5px;
+}
