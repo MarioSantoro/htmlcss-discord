@@ -34,6 +34,14 @@
     border: 2px dashed black;
 }
 
+.text-center{
+    text-align: center;
+}
+
+.text-left{
+    text-align: left;
+}
+
 /* Classe per aggiungere padding agli item nel nav */
 .padding{
     padding: 10px;
@@ -139,10 +147,11 @@ section.white > div.cyan-pink > div.item-1{
     padding-right: 3rem;
 }
 
-div.cyan-pink > div.pink > h2{
+div.cyan-pink > div.pink > h2 ,
+div.green >  h2
+{
     color: #23272a;
     font-size: 3rem;
-    text-align: left;
     margin-top: 40px;
 }
 
@@ -172,56 +181,72 @@ section.lightgray >div.cyan-pink > div.cyan{
 section.lightgray > div.green{
     height: 900px;
     width: 70%;
-    background-color: green;
 }
 
-
-section.blue-turquoise{
-    background-color: #23272a;
-    padding-top: 10px;
-    border-bottom: 2px solid white;
-    padding-bottom: 50px;
+section.lightgray > div.green > p{
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    padding: 0 10rem;
 }
 
-section.blue-turquoise > .coral-turquoise{
-    width: 70%;
-    height: 500px;
+div.green > div.stars{
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 1.5rem;
+    width: 30%;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
-section.blue-turquoise > div.coral-turquoise > div.coral{
-    height: 100%;
-    width: 40%;
-    background-color: #f08080;
-    border: 2px dashed black;
-    border-right: 3px dashed black;
-}
-
-section.blue-turquoise > div.coral-turquoise > div.turquoise{
-    height: 100%;
-    width: calc(100% / 4);
-    background-color: #20b2aa;
-    border: 2px dashed white;
+div.green > button.color-blue-sky{
+    padding: 20px 30px;
+    border-radius: 30px;
+    font-size: 1.3rem;
+    background-color: #8ea1e1;
 }
 
 footer{
     background-color: #23272a;
-    padding-top: 40px;
+    padding-top: 1rem;
 }
 
-footer > div.container-logo-btn{
-    background-color: #7fffd4;
+footer section.footer-top{
+    height: 700px;
     width: 70%;
-    justify-content: space-between;
+}
+
+footer div.main-column{
+    background-color: #ef7f7f;
+    width: 30%;
+}
+
+footer div.footer-columns{
+    width: 70%;
+}
+
+footer div.secondary-column{
+    background-color: #20b1a9;
+    width: calc(100% / 4);
+}
+
+footer section.footer-bottom{
+    width: 70%;
+    background-color: #7ffed3;
     align-items: center;
-    padding: 20px 0;
+    justify-content: space-between;
+    padding: 1rem 0;
 }
 
-footer > div.container-logo-btn > div.logo{
-    background-color: #fdb4c0;
-    padding: 5px;
+hr{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
-footer > div.container-logo-btn > div.btn{
-    background-color: #fdb4c0;
-    padding: 5px;
+footer section .logo-wrapper,
+footer section .button-wrapper{
+    padding: .5rem;
 }
+
+
