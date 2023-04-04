@@ -135,7 +135,7 @@ div.cyan-pink > div.pink{
     width: 25%;
 }
 
-section.white > div.cyan-pink > div.pink{
+section.white > div.cyan-pink > div.item-1{
     padding-right: 3rem;
 }
 
@@ -157,8 +157,6 @@ div.cyan-pink > div.pink > p{
 }
 
 section.lightgray{
-    background-image: url(../img/wave.svg);
-    background-color: #f6f6f6;
     background-color: #f6f6f6;
 }
 
