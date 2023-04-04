@@ -45,6 +45,7 @@ body{
 }
 
 header{
+    min-height:600px;
     background-image: url(../img/jumbo.png);
     background-size: cover;
     padding-top: 10px;
@@ -83,7 +84,6 @@ nav >.login{
 }
 
 section.blue{
-    height: 450px;
     justify-content:center;
     align-items: center;
     text-align: center;
