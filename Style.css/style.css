@@ -94,7 +94,7 @@
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 49px;
+    height: 72px;
     background: url(../img/wave-white.svg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -109,8 +109,8 @@
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 100%;
-    height: 49px;
+    max-width: 2000px;
+    height: 70px;
     background: url(../img/wave.svg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -194,6 +194,7 @@ section.white ,section.lightgray , footer, header{
 
 .cyan-pink{
     width: 70%;
+    padding-bottom: 2rem;
 }
 
 div.cyan-pink > div.cyan{
@@ -219,11 +220,13 @@ div.green >  h2
 div.cyan-pink > div.pink > p{
     font-size: 1.5rem;
     margin-top:1.2rem;
+    margin-bottom: 1.5rem;
 }
 
  div.cyan-pink > div.cyan img{
     height: 500px;
     justify-content: start;
+    margin-bottom: 1.5rem;
 }
 
 section.lightgray{
