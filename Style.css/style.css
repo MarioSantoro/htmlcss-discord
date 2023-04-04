@@ -57,6 +57,10 @@
     display: flex;
 }
 
+.text-color-blue{
+   color: #7289da;
+}
+
                     /* CSS */
 
 body{
@@ -200,7 +204,7 @@ div.green > div.stars{
     font-weight: bold;
 }
 
-div.green > button.color-blue-sky{
+.color-blue-sky{
     padding: 20px 30px;
     border-radius: 30px;
     font-size: 1.3rem;
@@ -209,17 +213,19 @@ div.green > button.color-blue-sky{
 
 footer{
     background-color: #23272a;
-    padding-top: 1rem;
+    color: white;
+    padding: 3rem;
 }
 
 footer section.footer-top{
     height: 700px;
     width: 70%;
+    border-bottom: 2px solid #3d4766;
 }
 
 footer div.main-column{
-    background-color: #ef7f7f;
     width: 30%;
+    padding: 20px 9rem 10px 10px;
 }
 
 footer div.footer-columns{
@@ -227,16 +233,15 @@ footer div.footer-columns{
 }
 
 footer div.secondary-column{
-    background-color: #20b1a9;
     width: calc(100% / 4);
 }
 
 footer section.footer-bottom{
     width: 70%;
-    background-color: #7ffed3;
     align-items: center;
     justify-content: space-between;
     padding: 1rem 0;
+    border-top: 2px solid #7289da;
 }
 
 hr{
@@ -249,4 +254,31 @@ footer section .button-wrapper{
     padding: .5rem;
 }
 
+div.main-column h3{
+    font-size: 1.7rem;
+    margin-bottom: 15px;
+}
+
+div.main-column img{
+    width: 20px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+div.main-column img:last-child{
+    width:30px;
+}
+
+div.secondary-column ul{
+    list-style-type: none;
+    line-height: 2rem;
+}
+
+div.secondary-column{
+    padding: 20px 10px 10px 10px;
+}  
+
+section.footer-bottom div.color-blue-sky{
+    font-size: 1rem;
+}
 
