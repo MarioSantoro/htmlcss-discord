@@ -264,7 +264,7 @@ footer{
 }
 
 footer section.footer-top{
-    height: 700px;
+    padding-bottom:1rem ;
     width: 70%;
     border-bottom: 2px solid #3d4766;
 }
